@@ -1,0 +1,894 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="ff670017-1075-4591-953c-af8049949ef7" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/application/models/Mail_model.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/application/models/Parent_model.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/application/models/Student_model.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/application/models/Teacher_model.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/application/views/Admin/Parent/crud_parent.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/application/views/Admin/Student/crud_student.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/upload/pic3.jpg" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
+    <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="-546283774">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="87" />
+          <entry key="project.open.time.0" value="2" />
+          <entry key="project.open.time.1" value="7" />
+          <entry key="project.open.time.10" value="2" />
+          <entry key="project.open.time.11" value="1" />
+          <entry key="project.open.time.12" value="3" />
+          <entry key="project.open.time.13" value="5" />
+          <entry key="project.open.time.14" value="3" />
+          <entry key="project.open.time.15" value="2" />
+          <entry key="project.open.time.16" value="3" />
+          <entry key="project.open.time.17" value="3" />
+          <entry key="project.open.time.19" value="1" />
+          <entry key="project.open.time.2" value="1" />
+          <entry key="project.open.time.21" value="1" />
+          <entry key="project.open.time.22" value="2" />
+          <entry key="project.open.time.23" value="1" />
+          <entry key="project.open.time.24" value="3" />
+          <entry key="project.open.time.25" value="3" />
+          <entry key="project.open.time.26" value="4" />
+          <entry key="project.open.time.27" value="4" />
+          <entry key="project.open.time.28" value="5" />
+          <entry key="project.open.time.29" value="4" />
+          <entry key="project.open.time.31" value="1" />
+          <entry key="project.open.time.32" value="2" />
+          <entry key="project.open.time.33" value="4" />
+          <entry key="project.open.time.34" value="1" />
+          <entry key="project.open.time.35" value="4" />
+          <entry key="project.open.time.38" value="5" />
+          <entry key="project.open.time.39" value="2" />
+          <entry key="project.open.time.41" value="1" />
+          <entry key="project.open.time.46" value="2" />
+          <entry key="project.open.time.48" value="1" />
+          <entry key="project.open.time.50" value="1" />
+          <entry key="project.open.time.74" value="1" />
+          <entry key="project.open.time.8" value="2" />
+          <entry key="project.open.time.9" value="4" />
+          <entry key="project.opened" value="92" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="css" value="27" />
+          <entry key="html" value="9" />
+          <entry key="jpg" value="25" />
+          <entry key="js" value="33" />
+          <entry key="map" value="2" />
+          <entry key="php" value="602" />
+          <entry key="png" value="17" />
+          <entry key="rnc" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="CSS" value="27" />
+          <entry key="HTML" value="9" />
+          <entry key="Image" value="42" />
+          <entry key="JavaScript" value="33" />
+          <entry key="PHP" value="602" />
+          <entry key="RNG Compact" value="2" />
+          <entry key="SourceMap" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="css" value="545" />
+          <entry key="dummy" value="9" />
+          <entry key="js" value="96" />
+          <entry key="php" value="26201" />
+          <entry key="txt" value="12" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="CSS" value="545" />
+          <entry key="HTML" value="15" />
+          <entry key="JavaScript" value="96" />
+          <entry key="PHP" value="26181" />
+          <entry key="PLAIN_TEXT" value="21" />
+          <entry key="SQL" value="5" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.php.new.class">
+        <counts>
+          <entry key="PHP Class.type" value="12" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.vcs.git.usages">
+        <counts>
+          <entry key="git.branch.delete.remote" value="3" />
+          <entry key="git.branch.merge" value="2" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/views/templateteacher/header.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2975">
+              <caret line="175" column="91" selection-start-line="175" selection-start-column="91" selection-end-line="175" selection-end-column="91" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/views/templates/header.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2737">
+              <caret line="161" column="100" selection-start-line="161" selection-start-column="100" selection-end-line="161" selection-end-column="100" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/views/templates/header2.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2448">
+              <caret line="144" column="116" selection-start-line="144" selection-start-column="116" selection-end-line="144" selection-end-column="116" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/application/views/templateparent/header.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="7" column="8" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/views/Admin/class/crud_class.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="986">
+              <caret line="58" column="43" selection-start-line="58" selection-start-column="43" selection-end-line="58" selection-end-column="43" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/controllers/Admin.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="58718">
+              <caret line="3454" column="62" selection-start-line="3454" selection-start-column="62" selection-end-line="3454" selection-end-column="62" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/views/Teacher/Management/ReviewGrades.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1122">
+              <caret line="66" column="55" selection-start-line="66" selection-start-column="55" selection-end-line="66" selection-end-column="55" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/views/indexadmin.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="15" column="22" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>load_ta</find>
+      <find>action_par</find>
+      <find>load_table</find>
+      <find>Action_par_classe</find>
+      <find>Grades</find>
+      <find>ADDteachertoclass</find>
+      <find>grades</find>
+      <find>bootstrap/css/bootstrap.min.css</find>
+      <find>bootstrap.min.css.map</find>
+      <find>font</find>
+      <find>fon</find>
+      <find>bootstrap</find>
+      <find>Gradetoeach</find>
+      <find>boot</find>
+      <find>rating</find>
+      <find>boots</find>
+      <find>result</find>
+      <find>reload_table_student</find>
+      <find>ratin</find>
+      <find>delete_student</find>
+      <find>redi</find>
+      <find>profil</find>
+      <find>comment</find>
+      <find>profils</find>
+      <find>number</find>
+      <find>detailmail</find>
+      <find>modifierclasse</find>
+      <find>Availability</find>
+      <find>nom</find>
+      <find>ReviewGrades</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/application/models/Parent_model.php" />
+        <option value="$PROJECT_DIR$/application/views/Teacher/congee/Writerequest1.php" />
+        <option value="$PROJECT_DIR$/application/views/Teacher/congee/Viewcongee.php" />
+        <option value="$PROJECT_DIR$/application/views/Admin/Annonce/annoncecreation.php" />
+        <option value="$PROJECT_DIR$/application/views/parent/profil.php" />
+        <option value="$PROJECT_DIR$/application/views/Admin/class/moredetailTeacher.php" />
+        <option value="$PROJECT_DIR$/application/views/Admin/Maitresse/crud_view2.php" />
+        <option value="$PROJECT_DIR$/application/views/templates/footer2.php" />
+        <option value="$PROJECT_DIR$/application/views/parent/Mail/consultation.php" />
+        <option value="$PROJECT_DIR$/application/views/parent/Mail/ajoutmail.php" />
+        <option value="$PROJECT_DIR$/application/views/Teacher/Mail/Reply.php" />
+        <option value="$PROJECT_DIR$/application/views/Teacher/Event/consulterevenement.php" />
+        <option value="$PROJECT_DIR$/application/views/Teacher/Management/convocation.php" />
+        <option value="$PROJECT_DIR$/application/views/parent/Event/consulterevenement.php" />
+        <option value="$PROJECT_DIR$/application/models/Announcement_model.php" />
+        <option value="$PROJECT_DIR$/application/views/Teacher/Management/ClassList.php" />
+        <option value="$PROJECT_DIR$/application/models/Class_model.php" />
+        <option value="$PROJECT_DIR$/application/views/Teacher/Management/MatiereList.php" />
+        <option value="$PROJECT_DIR$/application/models/Matiere_model.php" />
+        <option value="$PROJECT_DIR$/application/models/Teacher_model.php" />
+        <option value="$PROJECT_DIR$/application/views/Admin/class/test.php" />
+        <option value="$PROJECT_DIR$/application/views/Admin/Parent/crud_parent.php" />
+        <option value="$PROJECT_DIR$/application/models/congee_model.php" />
+        <option value="$PROJECT_DIR$/application/views/Teacher/Mail/ajoutmail.php" />
+        <option value="$PROJECT_DIR$/application/views/Teacher/Mail/detailmail.php" />
+        <option value="$PROJECT_DIR$/application/models/Mail_model.php" />
+        <option value="$PROJECT_DIR$/application/views/Admin/Mail/ajoutmail.php" />
+        <option value="$PROJECT_DIR$/application/views/Admin/Mail/consultation.php" />
+        <option value="$PROJECT_DIR$/application/views/Teacher/Mail/consultation.php" />
+        <option value="$PROJECT_DIR$/application/views/templates/footer.php" />
+        <option value="$PROJECT_DIR$/application/views/Teacher/Management/Presence.php" />
+        <option value="$PROJECT_DIR$/application/views/Teacher/Management/Grades.php" />
+        <option value="$PROJECT_DIR$/application/models/Presence_model.php" />
+        <option value="$PROJECT_DIR$/application/views/Teacher/Management/Action_par_classe.php" />
+        <option value="$PROJECT_DIR$/application/models/Student_model.php" />
+        <option value="$PROJECT_DIR$/application/views/parent/Children/Seeyourchildren.php" />
+        <option value="$PROJECT_DIR$/application/views/templateteacher/footer.php" />
+        <option value="$PROJECT_DIR$/application/views/templateteacher/header2.php" />
+        <option value="$PROJECT_DIR$/application/views/templateteacher/footer2.php" />
+        <option value="$PROJECT_DIR$/application/views/Admin/Student/crud_student.php" />
+        <option value="$PROJECT_DIR$/application/controllers/Admin.php" />
+        <option value="$PROJECT_DIR$/application/views/Teacher/Management/Gradetoeach.php" />
+        <option value="$PROJECT_DIR$/application/views/indexadmin.php" />
+        <option value="$PROJECT_DIR$/application/views/Admin/Mail/detailmail.php" />
+        <option value="$PROJECT_DIR$/application/views/Admin/class/crud_class.php" />
+        <option value="$PROJECT_DIR$/application/views/Admin/congee/Availability.php" />
+        <option value="$PROJECT_DIR$/application/views/Teacher/Management/ReviewGrades.php" />
+        <option value="$PROJECT_DIR$/application/views/templateteacher/header.php" />
+        <option value="$PROJECT_DIR$/application/views/templates/header.php" />
+        <option value="$PROJECT_DIR$/application/views/templates/header2.php" />
+        <option value="$PROJECT_DIR$/application/views/templateparent/header.php" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="PhpServers">
+    <servers />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1346" />
+    <option name="height" value="688" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State />
+          <State>
+            <id>CSS</id>
+          </State>
+          <State>
+            <id>Invalid elementsCSS</id>
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>CssInvalidFunction</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="letgo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="letgo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="letgo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="letgo" type="462c0819:PsiDirectoryNode" />
+              <item name="application" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="letgo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="letgo" type="462c0819:PsiDirectoryNode" />
+              <item name="application" type="462c0819:PsiDirectoryNode" />
+              <item name="controllers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="letgo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="letgo" type="462c0819:PsiDirectoryNode" />
+              <item name="application" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="letgo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="letgo" type="462c0819:PsiDirectoryNode" />
+              <item name="application" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="Teacher" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="letgo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="letgo" type="462c0819:PsiDirectoryNode" />
+              <item name="application" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="Teacher" type="462c0819:PsiDirectoryNode" />
+              <item name="Management" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="letgo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="letgo" type="462c0819:PsiDirectoryNode" />
+              <item name="application" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="templateparent" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="letgo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="letgo" type="462c0819:PsiDirectoryNode" />
+              <item name="application" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="letgo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="letgo" type="462c0819:PsiDirectoryNode" />
+              <item name="application" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="templateteacher" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="letgo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="letgo" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="letgo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="letgo" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+              <item name="dashboard" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="SearchEverywhereHistoryKey" value="mait&#9;FILE&#9;file://C:/xampp/htdocs/letgo/application/views/Admin/Maitresse" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="settings.github" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\letgo\assets\rating" />
+      <recent name="C:\xampp\htdocs\letgo\assets" />
+      <recent name="C:\xampp\htdocs\letgo\application\views\Teacher\Event" />
+      <recent name="C:\xampp\htdocs\letgo\assets\dashboard\dist\img" />
+      <recent name="C:\xampp\htdocs\letgo\assets\dashboard\dist\img\media" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\letgo\assets\rating" />
+      <recent name="C:\xampp\htdocs\letgo\application\views\parent" />
+      <recent name="C:\xampp\htdocs\letgo\application\views\templateparent" />
+      <recent name="C:\xampp\htdocs\letgo\application\views\Teacher" />
+      <recent name="C:\xampp\htdocs\letgo\assets\dashboard\dist\img" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ff670017-1075-4591-953c-af8049949ef7" name="Default Changelist" comment="" />
+      <created>1550860046163</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1550860046163</updated>
+      <workItem from="1550860051050" duration="701000" />
+      <workItem from="1551000822036" duration="3432000" />
+      <workItem from="1551080350496" duration="12984000" />
+      <workItem from="1551167862022" duration="10901000" />
+      <workItem from="1551254846813" duration="11842000" />
+      <workItem from="1551267169748" duration="4523000" />
+      <workItem from="1551340618839" duration="9069000" />
+      <workItem from="1551350012921" duration="4992000" />
+      <workItem from="1551359180030" duration="715000" />
+      <workItem from="1551430685889" duration="13642000" />
+      <workItem from="1551686331821" duration="19776000" />
+      <workItem from="1551772599862" duration="13840000" />
+      <workItem from="1551859015681" duration="2155000" />
+      <workItem from="1551862037917" duration="14912000" />
+      <workItem from="1551946789886" duration="9844000" />
+      <workItem from="1551962209001" duration="237000" />
+      <workItem from="1551962454745" duration="976000" />
+      <workItem from="1552030201715" duration="12705000" />
+      <workItem from="1552294955675" duration="10632000" />
+      <workItem from="1552333185207" duration="210000" />
+      <workItem from="1552378317994" duration="7172000" />
+      <workItem from="1552385774639" duration="3806000" />
+      <workItem from="1552389589114" duration="13650000" />
+      <workItem from="1552462474722" duration="1778000" />
+      <workItem from="1552465537339" duration="132000" />
+      <workItem from="1552465798083" duration="200000" />
+      <workItem from="1552466028441" duration="68000" />
+      <workItem from="1552561382771" duration="102000" />
+      <workItem from="1552654504905" duration="120000" />
+      <workItem from="1552655446623" duration="599000" />
+      <workItem from="1552983710479" duration="4000" />
+      <workItem from="1553021204316" duration="609000" />
+      <workItem from="1553022456370" duration="1330000" />
+      <workItem from="1553023846071" duration="514000" />
+      <workItem from="1553240486091" duration="13157000" />
+      <workItem from="1553260330853" duration="2970000" />
+      <workItem from="1553500252472" duration="17526000" />
+      <workItem from="1553587751830" duration="5191000" />
+      <workItem from="1553596964666" duration="654000" />
+      <workItem from="1553598082266" duration="10517000" />
+      <workItem from="1553674388995" duration="2279000" />
+      <workItem from="1553693238270" duration="2909000" />
+      <workItem from="1553759206620" duration="4949000" />
+      <workItem from="1553765164778" duration="14457000" />
+      <workItem from="1553845941228" duration="14765000" />
+      <workItem from="1554044854142" duration="5580000" />
+      <workItem from="1554050882053" duration="1841000" />
+      <workItem from="1554107811383" duration="8429000" />
+      <workItem from="1554123956321" duration="6736000" />
+      <workItem from="1554190291220" duration="15560000" />
+      <workItem from="1554276474712" duration="17423000" />
+      <workItem from="1554363408588" duration="11472000" />
+      <workItem from="1554375947188" duration="634000" />
+      <workItem from="1554382866314" duration="3292000" />
+      <workItem from="1554450137449" duration="13848000" />
+      <workItem from="1554469228009" duration="2413000" />
+      <workItem from="1554627713542" duration="5641000" />
+      <workItem from="1554633721205" duration="2433000" />
+      <workItem from="1554709352045" duration="19288000" />
+      <workItem from="1554881530690" duration="17298000" />
+      <workItem from="1554905720885" duration="1312000" />
+      <workItem from="1554968612401" duration="10133000" />
+      <workItem from="1555317939353" duration="13720000" />
+      <workItem from="1555357775487" duration="591000" />
+      <workItem from="1555399742368" duration="19749000" />
+      <workItem from="1555489389244" duration="14417000" />
+      <workItem from="1555573153584" duration="6935000" />
+      <workItem from="1555580355908" duration="2050000" />
+      <workItem from="1555583433178" duration="3016000" />
+      <workItem from="1555592045745" duration="5342000" />
+      <workItem from="1555843586667" duration="1448000" />
+      <workItem from="1555917744176" duration="9128000" />
+      <workItem from="1555927514652" duration="13118000" />
+      <workItem from="1556005835599" duration="12068000" />
+      <workItem from="1556272707922" duration="5644000" />
+      <workItem from="1556283365473" duration="3000" />
+      <workItem from="1556526390579" duration="18072000" />
+      <workItem from="1556614149533" duration="2579000" />
+      <workItem from="1556712094890" duration="7454000" />
+      <workItem from="1556783856069" duration="15406000" />
+      <workItem from="1556869073983" duration="8416000" />
+      <workItem from="1556878638085" duration="2920000" />
+      <workItem from="1556888921020" duration="1349000" />
+      <workItem from="1556965539675" duration="5332000" />
+      <workItem from="1556971369085" duration="1170000" />
+      <workItem from="1556991492006" duration="6198000" />
+      <workItem from="1558008911890" duration="597000" />
+      <workItem from="1560257762009" duration="2522000" />
+      <workItem from="1561643167784" duration="288000" />
+      <workItem from="1561643614081" duration="54000" />
+      <workItem from="1561643900365" duration="152000" />
+      <workItem from="1561644543951" duration="212000" />
+    </task>
+    <task id="LOCAL-00001" summary="first commit">
+      <created>1552462911059</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1552462911059</updated>
+    </task>
+    <task id="LOCAL-00002" summary="first commit">
+      <created>1553024168689</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1553024168689</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="608683000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.28290468" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3295082" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49924356" weight="0.3295082" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" weight="0.3295082" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.21311475" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50075644" side_tool="true" weight="0.3295082" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/letgo" />
+      <path value="$PROJECT_DIR$" />
+    </ignored-roots>
+    <MESSAGE value="first commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="first commit" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/application/views/Teacher/Management/ClassList.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="35" selection-start-line="20" selection-start-column="35" selection-end-line="20" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/Admin/Parent/crud_parent.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4556">
+          <caret line="268" column="16" selection-start-line="268" selection-start-column="16" selection-end-line="268" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/models/Announcement_model.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="731">
+          <caret line="43" column="83" selection-start-line="43" selection-start-column="83" selection-end-line="43" selection-end-column="83" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/Admin/class/test.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="42" selection-start-line="11" selection-start-column="42" selection-end-line="11" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/Teacher/congee/Viewcongee.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-186">
+          <caret line="27" column="29" lean-forward="true" selection-start-line="27" selection-start-column="29" selection-end-line="27" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/Teacher/congee/Writerequest1.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-595" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/Admin/congee/detail.php" />
+    <entry file="file://$PROJECT_DIR$/application/views/Admin/congee/Viewrequest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="48" lean-forward="true" selection-start-line="48" selection-end-line="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/Teacher/Mail/Reply.php" />
+    <entry file="file://$PROJECT_DIR$/application/models/Mail_model.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="177">
+          <caret line="29" column="45" selection-start-line="29" selection-start-column="35" selection-end-line="29" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/Teacher/Mail/ajoutmail.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="344">
+          <caret line="29" lean-forward="true" selection-end-line="70" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/Admin/Mail/consultation.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="415">
+          <caret line="61" column="134" selection-start-line="61" selection-start-column="124" selection-end-line="61" selection-end-column="134" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/Teacher/Mail/consultation.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="63" column="141" selection-start-line="63" selection-start-column="124" selection-end-line="63" selection-end-column="141" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/Teacher/Mail/detailmail.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="24" column="6" lean-forward="true" selection-end-line="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/Teacher/Management/MatiereList.php" />
+    <entry file="file://$PROJECT_DIR$/application/views/Teacher/profil.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="30" column="40" selection-start-line="30" selection-start-column="40" selection-end-line="30" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/templates/footer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="7616">
+          <caret line="448" selection-start-line="448" selection-end-line="448" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/Admin/Mail/ajoutmail.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="528">
+          <caret line="49" column="30" selection-start-line="49" selection-end-line="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/models/Payment_model.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="30" lean-forward="true" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/models/congee_model.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="205">
+          <caret line="28" column="19" lean-forward="true" selection-start-line="28" selection-end-line="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/Teacher/Management/Grades.php" />
+    <entry file="file://$PROJECT_DIR$/application/config/database.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/models/Student_model.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="395">
+          <caret line="204" column="5" lean-forward="true" selection-start-line="204" selection-start-column="5" selection-end-line="204" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/Teacher/Management/Action_par_classe.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/Teacher/Management/Presence.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="23" selection-start-line="1" selection-start-column="23" selection-end-line="1" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/parent/Children/Seeyourchildren.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="30" column="135" selection-start-line="30" selection-start-column="135" selection-end-line="30" selection-end-column="135" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/models/Presence_model.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/rating/rating.js" />
+    <entry file="file://$PROJECT_DIR$/assets/rating/rating.css" />
+    <entry file="file://$PROJECT_DIR$/assets/dashboard/dist/img/img15.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/rating/bootstrap.min.css.map" />
+    <entry file="file://$PROJECT_DIR$/assets/rating/bootstrap.min.css" />
+    <entry file="file://$PROJECT_DIR$/assets/rating/bootstrap.css.map" />
+    <entry file="file://$PROJECT_DIR$/assets/rating/bootstrap.css" />
+    <entry file="file://$PROJECT_DIR$/assets/rating/fontawesome.css" />
+    <entry file="file://$PROJECT_DIR$/assets/rating/js/bootstrap.js" />
+    <entry file="file://$PROJECT_DIR$/application/views/templateteacher/footer2.php" />
+    <entry file="file://$PROJECT_DIR$/application/views/templateteacher/footer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="8" selection-end-line="273" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/Admin/profil.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1377">
+          <caret line="81" column="46" selection-start-line="81" selection-end-line="82" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/Admin/Student/crud_student.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5814">
+          <caret line="342" column="20" selection-start-line="342" selection-start-column="20" selection-end-line="342" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/Teacher/Management/Gradetoeach.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="296">
+          <caret line="108" column="6" lean-forward="true" selection-start-line="108" selection-start-column="6" selection-end-line="108" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/Admin/Mail/detailmail.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="38" selection-start-line="1" selection-start-column="38" selection-end-line="1" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/Admin/congee/Availability.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="143">
+          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/templateteacher/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2975">
+          <caret line="175" column="91" selection-start-line="175" selection-start-column="91" selection-end-line="175" selection-end-column="91" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/templates/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2737">
+          <caret line="161" column="100" selection-start-line="161" selection-start-column="100" selection-end-line="161" selection-end-column="100" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/templates/header2.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2448">
+          <caret line="144" column="116" selection-start-line="144" selection-start-column="116" selection-end-line="144" selection-end-column="116" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/Admin/class/crud_class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="986">
+          <caret line="58" column="43" selection-start-line="58" selection-start-column="43" selection-end-line="58" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/controllers/Admin.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="58718">
+          <caret line="3454" column="62" selection-start-line="3454" selection-start-column="62" selection-end-line="3454" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/Teacher/Management/ReviewGrades.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1122">
+          <caret line="66" column="55" selection-start-line="66" selection-start-column="55" selection-end-line="66" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/indexadmin.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="22" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/templateparent/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" column="73" selection-start-line="23" selection-start-column="73" selection-end-line="23" selection-end-column="73" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
